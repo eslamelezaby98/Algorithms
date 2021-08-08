@@ -1,11 +1,19 @@
-# Algorithms
- 
-### In this repo , We will explained Algorithms.
-### Our Reference
- - Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People
+**Introduction**
 
-Programming Langauge will used:
-- Python
-- Dart
+ - What you'll learn about performance.
+ - What you'll learn about solving problems.
 
-Each Branch is having a topic.
+**An algorithm**
+
+- is a set of instructions for accomplishing a task.
+- Every piece of code could be called an algorithm.
+
+**Binary Search**
+
+> Remmber : Binary search only works when your list is in sorted order.
+> 
+> For example, the names in a phone book are sorted in alphabetical
+> order, so you can use binary search to look for a name
+
+
+       We will practice a binary search in Python and Dart
