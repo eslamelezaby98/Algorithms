@@ -1,4 +1,5 @@
 
+
 main(List<String> args) {
   List my_list = [1, 2, 3, 4, 6, 7, 9];
 
@@ -12,16 +13,19 @@ main(List<String> args) {
 
       if (guess_item == item) {
         return middle_index;
-      }
-      if (guess_item > item) {
+      } else if (guess_item > item) {
         high_index = middle_index - 1;
-      } else {
+      } else if (guess_item < item) {
         high_index = middle_index + 1;
       }
-      
     }
-    return 0;
   }
 
-  print('Your guess item index is : ${pinary_search(my_list, 1)}');
+
+
+  // print('Your guess item index is : ${pinary_search(my_list, 10)}');
+
+  pinary_search(my_list, 7) == null
+      ? print('Your guess item index is not in list')
+      : print('Your guess item index is : ${pinary_search(my_list, 7)}');
 }
