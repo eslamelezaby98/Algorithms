@@ -1,13 +1,3 @@
-# my_list = [1,2,3,5,6,9] ## Remmber => list must be sorted.
-
-# low_index = 0 ; ## low index is always equal 0
-# high_index = len(my_list) - 1 ## last item in list
-
-# mid = (low_index + high_index) / 2  ## middle index
-# guess = my_list[mid] ## the item you searched about it
-
-
-
 def binary_search(list,item):
     low = 0
     high = len(list) -1
