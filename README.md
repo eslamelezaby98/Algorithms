@@ -1,19 +1,26 @@
-**Introduction**
+### Chapter 1:
 
- - What you'll learn about performance.
- - What you'll learn about solving problems.
+---
 
-**An algorithm**
+- you will learn your first practical algorithms (binary search).
+- analyze the speed of an algorithms using Big O notation.
 
-- is a set of instructions for accomplishing a task.
-- Every piece of code could be called an algorithm.
+### Chapter 2:
 
-**Binary Search**
+---
 
-> Remmber : Binary search only works when your list is in sorted order.
-> 
-> For example, the names in a phone book are sorted in alphabetical
-> order, so you can use binary search to look for a name
+- You will learn about two fundamental data structure (Arrays and Linked lists).
+- they're used to make advanced data structure like hash tables (chapter 5).
 
+### Chapter 3:
 
-       We will practice a binary search in Python and Dart
+---
+
+- you will learn about recursion.
+
+**The rest of the book presents algorithms with broad application:**
+
+- problem-solving techniques.
+- hash tables
+- graph  algorithms
+- k-nearest neighbors (KNN)
