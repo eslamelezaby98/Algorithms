@@ -20,8 +20,8 @@ main(List<String> args) {
       }
       
     }
-    return null;
+    return 0;
   }
 
-  print('Your guess item index is : ${pinary_search(my_list, 5)}');
+  print('Your guess item index is : ${pinary_search(my_list, 1)}');
 }
