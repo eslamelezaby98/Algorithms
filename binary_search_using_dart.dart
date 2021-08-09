@@ -5,24 +5,21 @@ main(List<String> args) {
 
   pinary_search(List list, int item) {
     int low_index = 0;
-    int high_index = list.length - 1; // 7 -1 = 6
+    int high_index = list.length - 1;
 
     while (low_index <= high_index) {
-      int middle_index = low_index + high_index; // 0+ 7 = 7
+      int middle_index = low_index + high_index;
       if (middle_index > list.length - 1) {
         return null;
       } else {
-        int guess_item = list[middle_index]; // error
+        int guess_item = list[middle_index];
 
         if (guess_item == item) {
-          // 9 == 100 false
           return middle_index;
         } else if (guess_item > item) {
-          // 9 > 100 false
           high_index = middle_index - 1;
         } else if (guess_item < item) {
-          // 9 < 100
-          high_index = middle_index + 1; // high = 6 +1 = 7
+          high_index = middle_index + 1;
         }
       }
     }
